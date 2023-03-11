@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="src/styles/reset.css"/>
+    <link rel="stylesheet" href="src/styles/style.css"/>
+  </head>
+  <body>
+    <header>
+      <nav class="nav__menu">
+        <img src="https://media.licdn.com/dms/image/D4D03AQEWClKk7WZGjA/profile-displayphoto-shrink_800_800/0/1678466156495?e=1683763200&v=beta&t=2edCa2gFRt5tV-nCfQMbJ7SWejouzTucFPuLJBn4ua0" alt="Imagem Nick" />
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul></nav>
+
+        <div class="social1">          
+         <a href= "https://github.com/Nichbreeze"target="_blank"><img src="https://assets.stickpng.com/thumbs/629b7af17c5cd817694c3232.png"alt="Imagem Nick" width="90" height="90"/>
+        </a>
+        <a href= "https://www.linkedin.com/in/nicholas-cavalcante-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-4b76951b5"target="_blank"><img src= "https://cdn.iconscout.com/icon/free/png-256/linkedin-32-114604.png" alt="Imagem Nick"width="60" height="60"/>
+        </div>
+      </a>
+        
+    </header>
+    <section class="contact__us">
+      <h2 class="container__form">Entre em contato</h2>
+      <form action="">
+        <div class="container__form">
+          <label for="emailContact">Email</label>
+          <input type="email" onkeyup="validaEmail()" name="emailContact" id="emailContact" placeholder="Digite seu email@email"/>
+          <div class="txtErrorEmail"></div>
+        </div>
+        <div class="container__form">
+            <label for="nomeContact">Nome Completo</label>
+            <input type="text" onkeyup="validaNome()" name="nomeContact" id="nomeContact" placeholder="Digite seu nome"/>
+            <div class="txtErroNome"></div>
+        </div>
+        <div class="container__form">
+            <label for="textoContact">Subject</label>
+            <textarea name="textoContact" id="textoContact" cols="30" rows="10"></textarea>
+        </div>
+        <div class="container__form">
+           <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </section>
+    <footer>
+      <span>Desenvolvido Nick Cavalcanti</span>
+    </footer>
+
+    <script src="src/js/main.js"></script>
+    </div>
+  </body>
+</html>
